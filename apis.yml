@@ -1,8 +1,17 @@
 aid: open-port-technology
 name: Open Port Technology
-description: Open Port Technology is a company surfaced as a portfolio company of battery-ventures and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Open Port Technology (OpenPort) is a pan-Asian logistics and supply chain
+  technology company that digitizes trucking, freight, and supply chain
+  operations across emerging markets through an open, neutral, AI-based
+  platform. Headquartered in Karachi, Pakistan, its product suite spans
+  transport management (OpenTM), a digital trucking marketplace (OpenMarket),
+  customs clearance (OpenClear), warehouse picking operations (OpenPick), and
+  FBR digital invoicing (Open Invoice). The company reports millions of
+  completed shipments, 1,600+ transport partners, and integrations across 100+
+  ERP systems, offering ERP integration and custom API development to clients,
+  though it publishes no public developer portal, API reference, or machine
+  readable API specification at this time.
 url: https://raw.githubusercontent.com/api-evangelist/open-port-technology/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +19,59 @@ x-backed-by:
 - battery-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://openport.com/wp-content/uploads/2023/07/logo-inner.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Logistics
+- Supply Chain
+- Transportation
+- Trucking
+- Freight
+- Emerging Markets
+- Pakistan
 apis: []
+common:
+- type: Website
+  url: https://openport.com/
+- type: About
+  url: https://openport.com/about/
+- type: Products
+  url: https://openport.com/products/
+- type: Integrations
+  url: https://openport.com/integrations/
+- type: Support
+  url: https://openport.com/help-center/
+- type: Blog
+  url: https://openport.com/news-updates/
+- type: Contact
+  url: https://openport.com/contact/
+- type: Careers
+  url: https://openport.com/careers/
+- type: SignUp
+  url: https://openport.com/request-for-demo/
+- type: PrivacyPolicy
+  url: https://openport.com/privacy-policy/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
